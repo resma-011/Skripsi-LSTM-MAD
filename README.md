@@ -5,8 +5,11 @@ Kumpulan kode, data, dan hasil eksperimen skripsi yang berfokus pada prediksi ha
 Repositori ini berisi seluruh komponen skripsi yang berfokus pada prediksi harga saham menggunakan model Long Short-Term Memory (LSTM). Tujuan utama dari penelitian ini adalah untuk mengevaluasi efektivitas model LSTM dalam memprediksi harga saham dan mengoptimasi portofolio dengan pendekatan Mean-Absolute Deviation (MAD).
 
 ## 📂 Struktur Folder
-├── Data/ # File .csv harga saham (8 saham) ├── Models/ │ ├── Bobot_Bias_Awal/ # File bobot dan bias awal tiap saham │ ├── Bobot_Bias_Akhir/ # File bobot dan bias hasil training tiap saham │ └── Forward_Propagation/ # Output proses forward tiap saham ├── Scripts/ # Notebook .ipynb untuk masing-masing saham ├── Hasil_Prediksi.pdf # Hasil akhir prediksi dalam bentuk PDF └── README.md # Deskripsi proyek ini
-
+- `data/`: Dataset harga saham dalam format `.csv`
+- `models/`: Berisi hasil training model LSTM berupa bobot dan bias
+- `scripts/`: Notebook Jupyter untuk masing-masing saham
+- `hasil_prediksi/`: Output hasil prediksi yang telah dirender ke PDF
+- 
 ## 🔧 Tools & Library
 
 - Python (Google Colab)
