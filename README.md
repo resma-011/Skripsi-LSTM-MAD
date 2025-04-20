@@ -2,7 +2,7 @@
 Kumpulan kode, data, dan hasil eksperimen skripsi yang berfokus pada prediksi harga saham menggunakan arsitektur Long Short-Term Memory (LSTM). Termasuk inisialisasi bobot &amp; bias, proses training, hasil prediksi, serta evaluasi model.
 # Skripsi-LSTM 📈🤖
 
-Repositori ini berisi seluruh komponen skripsi yang berfokus pada prediksi harga saham menggunakan model Long Short-Term Memory (LSTM). Tujuan utama dari penelitian ini adalah untuk mengevaluasi efektivitas model LSTM dalam memprediksi harga saham dan mengoptimasi portofolio dengan pendekatan Mean-Absolute Deviation (MAD).
+Repositori ini berisi kode, data, dan hasil eksperimen skripsi menggunakan data harga saham dengan model Long Short-Term Memory (LSTM). Tujuan utama dari penelitian ini adalah untuk mendapatkan hasil prediksi harga saham menggunakan model LSTM.
 
 ## 📂 Struktur Folder
 - `data/`: Dataset harga saham dalam format `.csv`
@@ -19,9 +19,9 @@ Repositori ini berisi seluruh komponen skripsi yang berfokus pada prediksi harga
 
 ## 🔍 Metodologi
 
-1. **Preprocessing Data**: Data harga saham ditransformasi dan dinormalisasi.
+1. **Preprocessing Data**: Data harga saham dinormalisasi.
 2. **Modeling dengan LSTM**: Setiap saham dibuat modelnya sendiri menggunakan arsitektur LSTM.
-3. **Evaluasi & Optimasi**: Hasil prediksi dievaluasi dan digunakan dalam strategi optimasi portofolio berbasis MAD.
+3. **Evaluasi & Optimasi**: Hasil prediksi dievaluasi menggunakan MAPE.
 
 ## 📊 Hasil Akhir
 
