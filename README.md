@@ -6,10 +6,10 @@ Repositori ini berisi seluruh komponen skripsi yang berfokus pada prediksi harga
 
 ## 📂 Struktur Folder
 - `data/`: Dataset harga saham dalam format `.csv`
-- `models/`: Berisi hasil training model LSTM berupa bobot dan bias
-- `scripts/`: Notebook Jupyter untuk masing-masing saham
+- `models/`: Berisi hasil training model LSTM berupa bobot dan bias dan output pada forward propagation batch pertama`(.xlsx)`
+- `scripts/`: Notebook Jupyter untuk masing-masing saham`(.ipynb)`
 - `hasil_prediksi/`: Output hasil prediksi yang telah dirender ke PDF
-- 
+  
 ## 🔧 Tools & Library
 
 - Python (Google Colab)
