@@ -1,6 +1,5 @@
+
 # Skripsi-LSTM
-Kumpulan kode, data, dan hasil eksperimen skripsi yang berfokus pada prediksi harga saham menggunakan arsitektur Long Short-Term Memory (LSTM). Termasuk inisialisasi bobot &amp; bias, proses training, hasil prediksi, serta evaluasi model.
-# Skripsi-LSTM 📈🤖
 
 Repositori ini berisi kode, data, dan hasil eksperimen skripsi menggunakan data harga saham dengan model Long Short-Term Memory (LSTM). Tujuan utama dari penelitian ini adalah untuk mendapatkan hasil prediksi harga saham menggunakan model LSTM.
 
