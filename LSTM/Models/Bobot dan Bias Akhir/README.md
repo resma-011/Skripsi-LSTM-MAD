@@ -1,12 +1,6 @@
 ## Bobot dan Bias Akhir
 
-Folder ini berisi hasil bobot dan bias akhir yang menjadi parameter untuk memperoleh hasil prediksi. Setiap file .xlsx mewakili 1 saham.
 
-- ADRO_LSTM_Updated_Weights.xlsx
-- ANTM_LSTM_Updated_Weights.xlsx
-- BBCA_LSTM_Updated_Weights.xlsx
-- BBRI_LSTM_Updated_Weights.xlsx
-- BMRI_LSTM_Updated_Weights.xlsx
-- INDF_LSTM_Updated_Weights.xlsx
-- KLBP_LSTM_Updated_Weights.xlsx
-- UNTR_LSTM_Updated_Weights.xlsx
+Folder ini berisi output hasil bobot dan bias akhir yang didapat melalui proses pelatihan model LSTM. Bobot dan bias ini digunakan dalam pengujian model LSTM dan prediksi hasil. Setiap file .xlsx mewakili 1 saham berisi bobot dan bias akhir untuk setiap gate serta dense layer.
+
+
