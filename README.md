@@ -8,7 +8,12 @@ Repositori ini berisi kode, data, dan hasil eksperimen skripsi menggunakan data 
 - `models/`: Berisi hasil training model LSTM berupa bobot dan bias dan output pada forward propagation batch pertama`(.xlsx)`
 - `scripts/`: Notebook Jupyter untuk masing-masing saham`(.ipynb)`
 - `hasil_prediksi/`: Output hasil prediksi yang telah dirender ke PDF
-  
+
+## 🌐 Sumber Data
+
+Seluruh data harga saham yang digunakan dalam penelitian ini diperoleh dari situs [Investing.com](https://www.investing.com/).  
+Data diunduh dalam format `.csv` dan disimpan di dalam folder `data/`, terdiri dari 8 saham pilihan yang dianalisis menggunakan model LSTM.
+
 ## 🔧 Tools & Library
 
 - Python (Google Colab)
