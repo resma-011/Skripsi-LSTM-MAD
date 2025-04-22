@@ -4,11 +4,12 @@
 Repositori ini berisi kode, data, dan hasil eksperimen skripsi menggunakan data harga saham dengan model Long Short-Term Memory (LSTM). Tujuan utama dari penelitian ini adalah untuk mendapatkan hasil prediksi harga saham menggunakan model LSTM.
 
 ## 📂 Struktur Folder
+- `grafik/`: Semua Grafik proses dan hasil LSTM-MAD `.png`
 - `data/`: Dataset harga saham dalam format `.csv`
 - `models/`: Berisi hasil training model LSTM berupa bobot dan bias dan output pada forward propagation batch pertama`(.xlsx)`
 - `scripts/`: Notebook Jupyter untuk masing-masing saham`(.ipynb)`
 - `hasil_prediksi/`: Output hasil prediksi yang telah dirender ke PDF
-
+-  `MAD/`: Data return saham dan hasil bobot portofolio efisien ` .pdf`
 ## 🌐 Sumber Data
 
 Seluruh data harga saham yang digunakan dalam penelitian ini diperoleh dari situs [Investing.com](https://www.investing.com/).  
