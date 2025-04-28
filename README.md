@@ -13,7 +13,7 @@ Repositori ini berisi kode, data, dan hasil eksperimen skripsi menggunakan data 
 ## 🌐 Sumber Data
 
 Seluruh data harga saham yang digunakan dalam penelitian ini diperoleh dari situs [Investing.com](https://www.investing.com/).  
-Data diunduh dalam format `.csv` dan disimpan di dalam folder `data/`, terdiri dari 8 saham pilihan yang dianalisis menggunakan model LSTM.
+Data diunduh dalam format `.csv` pada 23 Oktober 2024 dan disimpan di dalam folder `data/`, terdiri dari 8 saham pilihan yang dianalisis menggunakan model LSTM.
 
 ## 🔧 Tools & Library
 
